@@ -46,6 +46,7 @@ An obligatory directory. It guards the best model obtained by our team. It also 
 - **reports**  
 An obligatory directory, needed to report the yield of the trained CRF. In this directory resides all of the results of training with increasing training set.  
 
+- Experimental_Grid.png :  Table that shows the different characteristics and parameters used to train the CRF the project in each RUN.
 - Gene_extraction_from_Biomedical_Literature.pdf :  Article in pdf format.
 - training_validation_v3.py: the original script for training an testing  a lbfgs CRF model
 
