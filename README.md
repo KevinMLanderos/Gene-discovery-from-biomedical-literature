@@ -61,7 +61,7 @@ The script used along this proyect is: _training_validation_v3.py_ and has the f
 --outputPath=PATH   Output path to place output files  
 --excludeStopWords  Filtering stop words (most common words in English, Default = False)  
 --excludeSymbols    Filtering punctuation marks (Default = True)  
-### Running Example:
+### Running Example
 python3.4 training_validation_v3.py --inputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/data-sets/ --trainingFile training-data-set-70.txt --testFile test-data-set-30.txt --outputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/
 ### Output Format Example
 report_training-data-set-<A special notation of the training data set>.fStopWords_False.fSymbols_True.txt
