@@ -27,7 +27,18 @@ The program trains a CRF model, specifically a Sklearn one, and proceeds to eval
 
 ## Folder content
 - **data-sets**  
-A directory that has all of the data sets used in the course of this article. Also contains the splitted data sets, from which we modeled the growing of the score with the bigger the training sets were.  
+A directory that has all of the data sets used in the course of this article. Also contains the splitted data sets, from which we modeled the growing of the score with the bigger the training sets were. 
+-   genes.txt 	
+-	test-data-set-30.txt 	
+-	text-annotated-abstracts.txt 	
+-	training-data-set-10.txt
+-	training-data-set-20.txt 	
+-	training-data-set-30.txt 
+-	training-data-set-35.txt 
+-	training-data-set-40.txt 	
+-	training-data-set-50.txt 	
+-	training-data-set-60.txt 	
+-	training-data-set-70.txt
 
 - **models**  
 An obligatory directory. It guards the best model obtained by our team. It also serves to keep an update from new models trained.  
