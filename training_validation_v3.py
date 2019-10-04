@@ -39,12 +39,13 @@ from nltk.corpus import stopwords
 # 1) Best model
 
 # Examples
-# python3.4 training-validation-v1.py
-# --inputPath /export/space1/users/compu2/bionlp/conditional-random-fields/data-sets
+# python3.4 training_validation_v3.py
+# --inputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/data-sets/
+
 # --trainingFile training-data-set-70.txt
 # --testFile test-data-set-30.txt
-# --outputPath /export/space1/users/compu2/bionlp/conditional-random-fields
-# python3.4 training-validation-v1.py --inputPath /export/space1/users/compu2/bionlp/conditional-random-fields/data-sets --trainingFile training-data-set-70.txt --testFile test-data-set-30.txt --outputPath /export/space1/users/compu2/bionlp/conditional-random-fields
+# --outputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/
+# python3.4 training_validation_v3.py --inputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/data-sets/ --trainingFile training-data-set-70.txt --testFile test-data-set-30.txt --outputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/
 
 #################################
 #           FUNCTIONS           #
