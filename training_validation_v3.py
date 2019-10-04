@@ -32,7 +32,7 @@ from nltk.corpus import stopwords
 # --trainingFile        File with training data set
 # --testFile        File with test data set
 # --outputPath=PATH    Output path to place output files
-# --filteringStopWords   Filtering stop words
+# --excludeStopWords   Filtering stop words
 # --excludeSymbols      Filtering punctuation marks
 
 # Output
