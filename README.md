@@ -1,5 +1,5 @@
 # Gene discovery from biomedical literature
-Project to extract in an automatic way gene names from abstracts.
+Project to create a bioinformatic approach for the extraction of human gene names within biomedical abstracts, making use of a supervised Machine Learning model: Conditional Random Fields (CRFs).
 
 ## Research Group
 **Main researcher**  
@@ -7,8 +7,8 @@ Méndez Cruz Carlos Francisco
 **Members**  
 Meza Landeros Kevin Emmanuel  
 Camacho Hernández Diego Arturo  
-Nieto Caballer Victor Eduardo  
-Gonzalez Kise José Kenyi  
+Nieto Caballero Victor Eduardo  
+González Kise José Kenyi  
 
 ## Metodology
 **Curation**  
@@ -36,8 +36,13 @@ An obligatory directory. It guards the best model obtained by our team. It also 
 An obligatory directory, needed to report the yield of the trained CRF. In this directory resides all of the results of training with increasing training set.  
 
 - Gene_extraction_from_Biomedical_Literature.pdf :  Article in pdf format.
+- training_validation_v3.py: the original script for training an testing  a lbfgs CRF model
 
-## Script excecution
+## Run the Programm
+### Cloning the repositoty
+In a unix system perform a git clone, in order to have local access to the multiple data sets and directories needed for the outphase.   
+git clone https://github.com/kevinLCG/Gene-discovery-from-biomedical-literature
+### Script excecution
 The script used along this proyect is: _training_validation_v3.py_ and has the following input parameters:  
 --inputPath=PATH    Path of training and test data set  
 --trainingFile      File with training data set  
