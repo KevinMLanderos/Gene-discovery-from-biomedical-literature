@@ -69,4 +69,4 @@ report_training-data-set-<A special notation of the training data set>.fStopWord
 
 
 ## Doubts
-For information regarding scripts and data sets used in the article, please read README carefully. If the doubts persist, feel freely to contact us: dcamacho@lcg.unam.mx.
+For information regarding scripts and data sets used in the article, please read README carefully. If the doubts persist, feel free to contact us: dcamacho@lcg.unam.mx.
