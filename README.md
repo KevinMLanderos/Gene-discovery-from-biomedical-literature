@@ -41,7 +41,7 @@ An obligatory directory, needed to report the yield of the trained CRF. In this 
 ## Run the Programm
 ### Cloning the repositoty
 In a unix system perform a git clone, in order to have local access to the multiple data sets and directories needed for the outphase.   
-git clone https://github.com/kevinLCG/Gene-discovery-from-biomedical-literature
+> git clone https://github.com/kevinLCG/Gene-discovery-from-biomedical-literature
 ### Script excecution
 The script used along this proyect is: _training_validation_v3.py_ and has the following input parameters:  
 --inputPath=PATH    Path of training and test data set  
@@ -52,6 +52,8 @@ The script used along this proyect is: _training_validation_v3.py_ and has the f
 --excludeSymbols    Filtering punctuation marks (Default = True)  
 ### Running Example:
 python3.4 training_validation_v3.py --inputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/data-sets/ --trainingFile training-data-set-70.txt --testFile test-data-set-30.txt --outputPath /export/storage/users/kevinml/Bioinfo/Gene-discovery-from-biomedical-literature/
+### Output Format Example
+report_training-data-set-<A special notation of the training data set>.fStopWords_False.fSymbols_True.txt
 
 
 
